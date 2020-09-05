@@ -33,8 +33,15 @@ function uploadImage(){
     console.log("Hello");
 }
 function selectFile(){
-    
+    var cover = document.getElementById('lensCover');
+    cover.style.transform = "rotate(45deg)";
+    cover.style.transformOrigin = "top left"
 }
+// function closeFlap(){
+//     var cover = document.getElementById('lensCover');
+//     cover.style.transform = "rotate(-45deg)";
+//     cover.style.transformOrigin = "top left"
+// }
 // function showText(){
 //     var text = document.getElementById('popupText');
 //     text.style.opacity = "1";
